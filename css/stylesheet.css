@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #0078D7, #00A4EF);
+    background: linear-gradient(180deg, #00A4EF,#0078D7);
     color: #ffffff;
 }
 
@@ -110,7 +110,7 @@ form input, form textarea, form button {
 }
 
 form button {
-    background: #0078D7;
+    background: #004f8f;
     color: #ffffff;
     font-weight: bold;
     border: none;
@@ -129,5 +129,5 @@ footer {
     padding: 15px 0;
     text-align: center;
     font-size: 0.9em;
-    border-top: 2px solid #0078D7;
+    border-top: 2px solid #008cff;
 }

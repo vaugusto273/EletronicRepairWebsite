@@ -8,62 +8,61 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Eletrônica MSA</h1>
-            <nav>
-                <ul>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#about">Sobre Nós</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Eletrônica MSA</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="services">
+    <section id="services");">
         <div class="container">
             <h2>Nossos Serviços</h2>
             <ul>
-                <li>Reparo de Smart TVs</li>
-                <li>Conserto de micro-ondas</li>
-                <li>Sistemas de som e estúdio</li>
-                <li>Layout de PCB</li>
-                <li>Consultas técnicas</li>
+                <li>Reparo de Smartphones</li>
+                <li>Conserto de Eletrodomésticos</li>
+                <li>Manutenção de Computadores</li>
+                <li>Consultoria Técnica</li>
             </ul>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>Sobre Nós</h2>
-            <p>Na Eletrônica MSA, somos especialistas em reparos de eletroeletrônicos, oferecendo soluções rápidas e eficientes para nossos clientes. Aberto a consultas e diagnósticos personalizados.</p>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>Contato</h2>
-            <form id="contact-form">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
+            <h2>Entre em Contato</h2>
+            <p>Você pode nos chamar diretamente pelo WhatsApp escaneando o QR Code abaixo ou clicando no botão.</p>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 20px;">
+                <!-- Mapa do Google -->
+                <div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.6763531076735!2d-46.657876825019244!3d-23.508164178836438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef70019138ca9%3A0x595b3b3e5efc7c5!2sEletr%C3%B4nica%20MSA!5e0!3m2!1spt-BR!2sbr!4v1734978241032!5m2!1spt-BR!2sbr" 
+                        width="300" 
+                        height="300" 
+                        style="border: 0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
 
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+                <!-- QR Code -->
+                <div style="text-align: center;">
+                    <img src="../assets/qr_code_image.png" alt="QR Code para WhatsApp" style="max-width: 200px; border: 5px solid #fff; border-radius: 10px; display: block; margin: 0 auto;">
+                    <a href="https://api.whatsapp.com/send?phone=5511915071135&text=Olá, gostaria de fazer uma consulta" target="_blank">
+                        <button style="padding: 15px 30px; font-size: 1.2em; background: #25D366; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: transform 0.2s; margin-top: 10px;">
+                            Abrir WhatsApp
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Eletrônica MSA. Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2024 Eletrônica MSA - Todos os direitos reservados.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
